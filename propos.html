@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200famille=Josefin+Sans:wght@200;300;400;500;600;700&=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div >
+        <ul class="nav-bar">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="propos.html">A propos</a></li>
+            <li><a href="projets.html">Mes projets</a></li>
+            <li><a href="Contact.html">Contact </a></li>
+        </ul>
+        </div>
+        <img src="menu.png" alt="menu" class="menu">
+
+    </header>
+    <div class="corps">
+        <h1>A propos de moi</h1><br><br>
+        <h2>Designer UI UX et developpeur <br> web et mobile</h2><br>
+    <p> En tant que concepteur UI/UX, je
+        mets en  
+        avant mon sens<br> artistique
+        pour créer des 
+        interfaces
+        visuellement attrayantes<br> et
+        conviviales  en plaçant les besoins
+et les désirs de l'utilisateur<br> au
+centre de mon processus de
+conception. j'ai aussi une
+<br>profonde connaissance des 
+langages de programmation tels
+que <br> HTML, CSS, JavaScript et
+PHP pour la création de site web. <br>J'utilise egalement Wordpress pour créer  des sites web vitrine et  <br>E-commerce</p> 
+  
+    </div>
+
+    <script>
+        const menu = document.querySelector(".menu")
+        const navbar = document.querySelector(".nav-bar")
+ 
+        menu.addEventListener('click',()=>{
+        navbar .classList.toggle('mobile-menu')
+        })
+</script>
+</body>
+</html>
